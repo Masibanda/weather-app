@@ -46,6 +46,7 @@ ul {
   overflow: hidden;
   position: relative;
   
+  
 }
 .weather-app {
   font-size: 10px;
@@ -295,6 +296,7 @@ ul {
   .current-weather-icon {
     position: relative;
     left: 35px;
+
   }
 
   .max-and-min-temperatures {
