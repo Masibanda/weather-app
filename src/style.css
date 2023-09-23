@@ -327,3 +327,7 @@ ul {
     margin: -52px 0px 0px;
     padding: 40px 0px 40px;
   }
+  .credits {
+    text-align: center;
+    font-size: smaller;
+   }
