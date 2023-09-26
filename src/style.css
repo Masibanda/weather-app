@@ -140,9 +140,9 @@ ul {
 }
 
 .current-weather-icon {
-  position: relative;
-  top: 10px;
-  left: 47px;
+  width: 100px;
+  height:100px;
+  position: absolute;
   
 }
 
@@ -242,7 +242,7 @@ ul {
   .weather-forecast {
     margin-top: 20px;
     text-align: center;
-    color: #000;
+    color:white;
   }
   
   .weather-forecast-date {
@@ -257,7 +257,9 @@ ul {
   .weather-forecast-temperatures {
     font-size: 13px;
   }
+  
   .credits {
     text-align: center;
     font-size: smaller;
+    margin-top: 15%;
    }
