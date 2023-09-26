@@ -65,40 +65,29 @@
           </div>
         </form>
         </div>
+          <!--Current date and time-->
+          <h3 class="current-date-and-time" id="date"></h3>
+
 
         <!-- Name of city and country--> 
-        <h1 class="city" id="city"></h1> 
-       
-        <!--Current date and time-->
-        <h3 class="date" id="current-date-and-time"></h3>
-        <!--Current weather description-->
-        <h4
-          class="current-weather-description"
-          id="description"
-        >
-          
-        </h4>
+        <h1 class="city" id="city">London</h1>
 
         <!--Current weather-->
           <div>
             <img
               src="images/01n.png"
-              height="60"
-              width="60"
+              height="50"
+              width="50"
               class="current-weather-icon"
               id="icon"
             /> 
           </div>
           <!--Current temperature-->
           <span class="current-temperature">
-            <span id="temperature"></span
+            <span id="temperature">15</span
               ><span class="units">°C</span>
           </span>
-        
-        
-          </span>
-          <!--Weather details-->
-          <span class="weather-details" id="description">
+   
             <ul>
               <li class="real-feel">
                 <i class="fas fa-thermometer-three-quarters"></i>Feels Like: <strong><span id="feel"></span> </strong>°C</span>
@@ -115,70 +104,6 @@
               </li>
             </ul>
           </span>
-        
-        <!--Maximum and minimum temperatures-->
-        <h5 class="max-and-min-temperatures">
-          <i class="fas fa-arrow-up"></i>&nbsp; High:
-          <span id="maximum-temperature"></span>&nbsp;
-          <strong>|</strong>&nbsp;&nbsp;
-          <i class="fas fa-arrow-down"></i>&nbsp;&nbsp;Low:
-          <span id="minimum-temperature"></span>
-        </h5>
-
-        <!--Hourly forecast header-->
-        <h6 class="hourly-forecast-header">5-Hour Weather Forecast</h6>
-        <!--Line break-->
-        <hr class="hr-1" />
-        
-        <!--Hourly forecast section-->
-        <div class="row daily-forecast" id="daily-forecast">
-          <div class="col day-forecast">
-          13:00
-          <div class="col weather-icon-forecast">
-           <img src="images/04d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         22°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          14:00
-          <div class="col weather-icon-forecast">
-           <img src="images/02d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         24°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          15:00
-          <div class="col weather-icon-forecast">
-           <img src="images/02d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         25°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          16:00
-          <div class="col weather-icon-forecast">
-           <img src="images/03d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         25°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          Tues
-          <div class="col weather-icon-forecast">
-           <img src="images/10d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         22°
-          </div>
-          </div>
-        </div>
-
         <!--Five day weather forecast header-->
         <div>
           <h6 class="daily-forecast-header">5-Day Outlook</h6>
@@ -186,53 +111,8 @@
         <!--Line break-->
         <hr class="hr-2" />
 
-        <!--Five day forecast section -->
-        <div class="row daily-forecast" id="daily-forecast">
-          <div class="col day-forecast">
-          Tue
-          <div class="col weather-icon-forecast">
-           <img src="images/04d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         22°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          Wed
-          <div class="col weather-icon-forecast">
-           <img src="images/02d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         24°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          Thur
-          <div class="col weather-icon-forecast">
-           <img src="images/02d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         25°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          Fri
-          <div class="col weather-icon-forecast">
-           <img src="images/03d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         25°
-          </div>
-          </div>
-          <div class="col day-forecast">
-          Sat
-          <div class="col weather-icon-forecast">
-           <img src="images/10d.png" width="21" height="21">
-          </div>
-          <div class="col" id="day-temperature-forecast">
-         22°
-          </div>
-          </div></div>
+        
+        <div class="weather-forecast" id="forecast"></div>
     </div>
     <div class="credits">
     <small>

@@ -110,18 +110,6 @@ ul {
   right: 35px;
 }
 
-#celsius-link,
-#fahrenheit-link {
-  color: white;
-  font-weight: 200;
-  text-decoration: none;
-}
-
-#celsius-link:hover,
-#fahrenheit-link:hover {
-  font-weight: 400;
-}
-
 .current-date-and-time {
   color: white;
   font-family: "Poppins", sans-serif;
@@ -155,6 +143,7 @@ ul {
   position: relative;
   top: 10px;
   left: 47px;
+  
 }
 
 .current-temperature {
@@ -188,59 +177,6 @@ ul {
   color: white;
   font-weight: 400;
 }
-
-.hourly-forecast-header,
-.daily-forecast-header {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
-  position: relative;
-  bottom: 4px;
-  left: 35px;
-  text-transform: uppercase;
-}
-
-.hourly-forecast-header {
-  margin-top: 11px;
-}
-
-.daily-forecast-header {
-  margin-top: -8px;
-}
-
-.hr-1,
-.hr-2 {
-  color: white;
-  margin: -3px 33px 25px 33px;
-  max-width: 600px;
-}
-
-.hourly-forecast,
-.daily-forecast {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 32px;
-  margin: -58px 0 0px 0px;
-  text-align: center;
-}
-
-.hourly-forecast {
-  padding: 40px 12px 37px;
-}
-
-.daily-forecast {
-  padding: 40px 5px;
-}
-
-#day-temperature-forecast,
-#hour-temperature-forecast {
-  font-weight: 400;
-}
-
-
-
   ul {
     font-size: 11px;
     position: relative;
@@ -303,31 +239,23 @@ ul {
     font-size: 12px;
     margin-top: 25px;
   }
-
-  .hourly-forecast-header,
-  .daily-forecast-header {
-    font-size: 12px;
-    position: relative;
-    left: 20px;
+  .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
   }
-
-  .hourly-forecast-header {
-    padding-top: 5px;
+  
+  .weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
   }
-
-  .hr-1,
-  .hr-2 {
-    color: white;
-    margin: -3px 20px 25px 20px;
-    max-width: 600px;
+  
+  .weather-forecast-temperature-min {
+    opacity: 0.5;
   }
-
-  .hourly-forecast,
-  .daily-forecast {
-    font-size: 12px;
-    line-height: 25px;
-    margin: -52px 0px 0px;
-    padding: 40px 0px 40px;
+  
+  .weather-forecast-temperatures {
+    font-size: 13px;
   }
   .credits {
     text-align: center;
